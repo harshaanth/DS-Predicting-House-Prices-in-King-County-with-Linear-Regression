@@ -38,3 +38,29 @@ The following libraries are used in this project:
 - Model Building: `statsmodels`, `sklearn`
 - Model Evaluation: `sklearn.metrics`, `sklearn.model_selection`
 - Data Preprocessing: `sklearn.preprocessing`
+
+## Data Loading and Preprocessing
+
+The dataset is read from a Google Drive link and preprocessed. The `price` column is converted from a string to a numeric value, and the `date` column is dropped as it is not used in numerical computations.
+
+## Exploratory Data Analysis (EDA)
+
+We perform the following analyses:
+
+- **Univariate Analysis**: Checking distributions and log-transforming the target variable.
+- **Bivariate Analysis**: Examining correlations and visualizing relationships between features.
+- **Multicollinearity Check**: Using Variance Inflation Factor (VIF) to identify and address multicollinearity.
+
+## Interpretations
+
+- **Bathrooms**: Each additional bathroom increases the predicted price by 14.166%.
+- **Waterfront**: Homes with a waterfront view have a predicted price that is 51.182% higher than non-waterfront homes.
+
+## Conclusion
+
+This project demonstrates how linear regression can be used to predict home prices based on various features. Key steps included data preprocessing, feature selection, and model evaluation. For further details, refer to the Jupyter notebook in this repository.
+
+## Files in the Repository
+
+- `Predicting_house_prices_in_King_County_with_Linear_Regression.ipynb`: The Jupyter notebook containing the full analysis and code.
+- `README.md`: Project overview and instructions.
