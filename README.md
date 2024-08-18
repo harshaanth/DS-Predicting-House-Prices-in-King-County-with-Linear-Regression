@@ -1,5 +1,4 @@
-# Repository Name
-Predicting-House-Prices-King-County
+# Predicting-House-Prices-King-County
 
 # Description
 A linear regression project to predict house prices in King County, Washington, using features such as square footage, number of bedrooms, and location. This project involves data preprocessing, feature selection, and building a predictive model to estimate housing prices.
